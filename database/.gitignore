@@ -1,0 +1,29 @@
+/vendor
+/node_modules
+.env
+.env.backup
+.env.*
+.DS_Store
+
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+.idea
+.vscode
+*.log
+*.bak
+*.tmp
+
+# Laravel Telescope
+/telescope
+
+# Laravel Horizon
+/horizon
+
+# PHPUnit
+.phpunit.result.cache
